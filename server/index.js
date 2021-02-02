@@ -46,7 +46,7 @@ app.delete('/:id', ({ params }, res) => {
     writeJSON(userAddr, 
         newData,
         () => {
-            res.ыend(newData);
+            res.send(newData);
         }
     );
   });
